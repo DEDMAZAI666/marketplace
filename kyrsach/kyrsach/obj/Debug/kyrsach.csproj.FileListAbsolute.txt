@@ -1,0 +1,15 @@
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.csproj.AssemblyReference.cache
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\App.g.cs
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach_MarkupCompile.cache
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach_MarkupCompile.lref
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\bin\Debug\kyrsach.exe.config
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\bin\Debug\kyrsach.exe
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\bin\Debug\kyrsach.pdb
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.g.resources
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.Properties.Resources.resources
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.csproj.GenerateResource.cache
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.csproj.CoreCompileInputs.cache
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.exe
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.pdb
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\MainWindow.baml
