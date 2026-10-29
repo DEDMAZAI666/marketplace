@@ -13,3 +13,7 @@ C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.exe
 C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\kyrsach.pdb
 C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\MainWindow.g.cs
 C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\MainWindow.baml
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\Login.g.cs
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\Login.baml
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\RegisterWindow.g.cs
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\RegisterWindow.baml

@@ -1,4 +1,4 @@
-﻿<Window x:Class="kyrsach.MainWindow"
+﻿<Window x:Class="kyrsach.Windows.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -33,13 +33,14 @@
                 <Border Grid.Column="1" Height="1" VerticalAlignment="Bottom" Background="Black"/>
                 <Border Grid.Column="2" Height="1" VerticalAlignment="Bottom" Background="Black"/>
 
-                <StackPanel Margin="20 0 0 0" VerticalAlignment="Center" Orientation="Horizontal">
-                    <TextBlock FontSize="20" VerticalAlignment="Center" Foreground="Black" Text="Электронный Магазин"/>
+                <StackPanel Margin="65 -52 0 0" VerticalAlignment="Center" Orientation="Horizontal">
+                    <Image Source="/Images/logo.png" Width="180" Height="300" />
+                    <TextBlock Text="Электронный магазин" TextWrapping="Wrap" TextAlignment="Center" Width="100" Margin="-400 52 0 0" />
                 </StackPanel>
                 <StackPanel Margin="0 0 7 0" Grid.Column="2" Orientation="Horizontal">
-                    <Button Click="MinWindow_Click" Content="-"/>
-                    <Button Click="MaxWindow_Click" Content="[]"/>
-                    <Button Click="CloseWindow_Click" Content="x"/>
+                    <Button Click="MinWindow_Click" Content="-" BorderBrush="Transparent" Background="WhiteSmoke"/>
+                    <Button Click="MaxWindow_Click" Content="[]" BorderBrush="Transparent" Background="WhiteSmoke"/>
+                    <Button Click="CloseWindow_Click" Content="x" BorderBrush="Transparent" Background="WhiteSmoke"/>
                 </StackPanel>
             </Grid>
             <Grid Grid.Row="1">
@@ -50,10 +51,32 @@
                 <Border Grid.Column="0" Background="WhiteSmoke" BorderBrush="Black" BorderThickness="0 0 1 0">
                     <StackPanel Margin="0 10 0 0">
                         <Border Height="1" Margin="15 5 15 10" Background="Black"/>
-                        <TextBlock Text="Фильтры" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Фильтры" HorizontalAlignment="Center" FontSize="15"/>
                         <Border Height="1" Margin="15 5 15 10" Background="Black"/>
+                        <RadioButton Content="Электроника" Checked="RadioButton_Checked1" Margin="15 0 0 0" FontSize="15"/>
+                        <RadioButton Content="Одежда" Checked="RadioButton_Checked2" Margin="15 5 0 0" FontSize="15"/>
+                        <RadioButton Content="Дом и сад" Checked="RadioButton_Checked3" Margin="15 5 0 0" FontSize="15"/>
+                        <RadioButton Content="Детские товары" Checked="RadioButton_Checked4" Margin="15 5 0 0" FontSize="15"/>
+                        <RadioButton Content="Игры и консоли" Checked="RadioButton_Checked5" Margin="15 5 0 0" FontSize="15"/>
+                        <RadioButton Content="Автотовары" Checked="RadioButton_Checked6" Margin="15 5 0 0" FontSize="15"/>
+                        <Border Height="1" Margin="15 5 15 10" Background="Black"/>
+                        <ComboBox  Background="WhiteSmoke" Tag="Фильтр по цене" SelectionChanged="ComboBox_SelectionChanged">
+                            <ComboBoxItem Content="Цена по убыванию" IsSelected="False"/>
+                            <ComboBoxItem Content="Цена по возврастанию" IsSelected="False"/>
+                        </ComboBox>
                     </StackPanel>
                 </Border>
+                <StackPanel Grid.Column="1">
+                    <Button Click="Корзина" Margin="1090 0 0 0" Background="WhiteSmoke" BorderBrush="Transparent">
+                        <TextBlock Text="🛒 Корзина" TextWrapping="Wrap" TextAlignment="Center" />
+                    </Button>
+                    <Button Click="Избранное" Margin="960 -33 0 0" Width="67" Background="WhiteSmoke" BorderBrush="Transparent">
+                        <TextBlock Text="🖤 Избранное" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                    <Button Click="Вход" Margin="850 -33 0 0" Width="40" Background="WhiteSmoke" BorderBrush="Transparent">
+                        <TextBlock Text="👤 Войти" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </Button>
+                </StackPanel>
             </Grid>
         </Grid>
     </Border>

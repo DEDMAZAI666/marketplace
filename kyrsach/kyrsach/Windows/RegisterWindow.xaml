@@ -1,0 +1,25 @@
+﻿<Window x:Class="kyrsach.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kyrsach"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Background="WhiteSmoke"
+        Title="RegisterWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="250">
+                <TextBlock Text="Регистрация" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                <TextBlock Text="Придумайте логин" Margin="0,0,0,5"/>
+                <TextBox x:Name="RegLoginBox" Height="30" Margin="0,0,0,15"/>
+                <TextBlock Text="Придумайте пароль" Margin="0,0,0,5"/>
+                <PasswordBox x:Name="RegPasswordBox" Height="30" Margin="0,0,0,15"/>
+                <TextBlock Text="Повторите пароль" Margin="0,0,0,5"/>
+                <PasswordBox x:Name="RegPasswordBox2" Height="30" Margin="0,0,0,20"/>
+                <Button Content="Зарегистрироваться" Height="35" Background="#007BFF" Foreground="WhiteSmoke" BorderThickness="0" Click="RegisterAction_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

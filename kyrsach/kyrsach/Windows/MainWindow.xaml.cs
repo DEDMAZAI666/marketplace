@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace kyrsach
+namespace kyrsach.Windows
 {
 /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -23,11 +23,6 @@ public partial class MainWindow : Window
 public MainWindow()
 {
 InitializeComponent();
-}
-
-private void Button_Click(object sender, RoutedEventArgs e)
-{
-
 }
 
 private void CloseWindow_Click(object sender, RoutedEventArgs e)
@@ -51,5 +46,61 @@ private void MinWindow_Click(object sender, RoutedEventArgs e)
 {
 WindowState=WindowState.Minimized;
 }
-}
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Вход(object sender, RoutedEventArgs e)
+        {
+            new Login().Show();
+            Close();
+        }
+
+        private void Избранное(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Корзина(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked4(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked5(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked6(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+    }
 }
