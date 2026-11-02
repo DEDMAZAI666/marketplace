@@ -39,10 +39,6 @@ namespace kyrsach.Windows
                 // Если пароль верный:
                 MessageBox.Show("Добро пожаловать!");
 
-                // Создаем и открываем главное окно магазина
-                MainWindow main = new MainWindow();
-                main.Show();
-
                 // Закрываем текущее окно авторизации
                 this.Close();
             }

@@ -17,3 +17,9 @@ C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\Login.g.cs
 C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\Login.baml
 C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\RegisterWindow.g.cs
 C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Windows\RegisterWindow.baml
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Pages\Izbranoe.g.cs
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Pages\Korzina.g.cs
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Pages\Izbranoe.baml
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Pages\Korzina.baml
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Pages\Tovar.baml
+C:\Users\Reelo\source\repos\kyrsach\kyrsach\obj\Debug\Pages\Tovar.g.cs

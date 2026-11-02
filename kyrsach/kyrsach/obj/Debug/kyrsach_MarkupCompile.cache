@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Reelo\source\repos\kyrsach\kyrsach\App.xaml
-3-1181214366
+61639893106
 
-72131921136
+10-1060337424
 13-1310406943
-Windows\RegisterWindow.xaml;Windows\Login.xaml;Windows\MainWindow.xaml;
+Pages\Izbranoe.xaml;Pages\Korzina.xaml;Pages\Tovar.xaml;Windows\RegisterWindow.xaml;Windows\Login.xaml;Windows\MainWindow.xaml;
 
 False
 
